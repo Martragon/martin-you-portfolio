@@ -3,7 +3,7 @@ body{
     margin: 0px;
     color: rgb(232, 232, 232);
     z-index: 2;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Times New Roman','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* .header_container{
