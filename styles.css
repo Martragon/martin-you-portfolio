@@ -93,8 +93,27 @@ body{
 
 .container{
     /* position: absolute; */
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin: 1rem;
     text-align:justify;
 }
 
+#imagebox{
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 2fr;
+    border: 1px;
+    column-gap: 5px;
+}
+
+#imagebox2{
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 2fr 1fr;
+    border: 1px;
+    column-gap: 5px;
+}
+
+.link{
+    color: rgb(140, 158, 196);
+}
