@@ -1,16 +1,16 @@
-body{
+body {
     background-color: rgb(58, 58, 58);
     margin: 0px;
     color: rgb(232, 232, 232);
     z-index: 2;
-    font-family: 'Calibri','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* .header_container{
     position: static;
 } */
 
-.header{
+.header {
     overflow: hidden;
     display: flex;
     background-color: rgb(37, 37, 37);
@@ -31,7 +31,7 @@ body{
     /* top: 0%; */
 }
 
-.tab{
+.tab {
     padding: .5rem;
     margin-left: .5rem;
     margin-right: .5rem;
@@ -44,17 +44,17 @@ body{
     color: white;
 }
 
-.tab:active{
+.tab:active {
     background-color: rgb(14, 14, 14);
     /* box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.496); */
     transform: translateY(5%);
 }
 
-.current{
+.current {
     color: rgb(12, 139, 42);
 }
 
-.header_image{
+.header_image {
     width: 100%;
     top: 0rem;
     z-index: -1;
@@ -62,7 +62,7 @@ body{
     border-bottom: solid 2px white;
 }
 
-.title_section{
+.title_section {
     /* background-image: url("media/altar_centro.png"); */
     /* background-position:  top center; */
     /* background-repeat: no-repeat; */
@@ -77,13 +77,13 @@ body{
     /* padding-bottom: 3rem; */
 }
 
-.title{
+.title {
     padding-bottom: 3rem;
     /* position: relative; */
     margin: 0px;
     text-align: center;
     font-size: 3rem;
-    font-weight: bold;   
+    font-weight: bold;
     /* text-shadow:
     1px 1px 0 #000,
     -1px 1px 0 #000,
@@ -91,29 +91,33 @@ body{
     1px -1px 0 #000; */
 }
 
-.container{
+.container {
     /* position: absolute; */
     font-size: 1.4rem;
-    margin: 1rem;
-    text-align:justify;
+    margin: 1rem 2rem;
+    text-align: justify;
 }
 
-#imagebox{
+#imagebox {
     display: grid;
-    align-items: center; 
+    align-items: center;
     grid-template-columns: 1fr 2fr;
     border: 1px;
     column-gap: 5px;
 }
 
-#imagebox2{
+#imagebox2 {
     display: grid;
-    align-items: center; 
+    align-items: center;
     grid-template-columns: 2fr 1fr;
     border: 1px;
     column-gap: 5px;
 }
 
-.link{
+.link {
     color: rgb(140, 158, 196);
+}
+
+.description {
+    text-align: justify;
 }
